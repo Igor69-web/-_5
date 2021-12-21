@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5625f6b4-cde9-4063-94cc-3b4e0bd8dea3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ПР_5.py</StartupFile>
+    <StartupFile>ПР5_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="geometry\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="geometry\stereometry.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="geometry\planimetry.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="geometry\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ПР5_2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ПР_5.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
