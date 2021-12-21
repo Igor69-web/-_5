@@ -12,3 +12,9 @@ class Room:
 		for i in self.wd:
 			new_square -= i.square
 		return new_square
+r1 = Room(6,3,2.7)
+print(r1.square)
+r1.addWD(1,1)
+r1.addWD(1,1)
+r1.addWD(1,2)
+print(r1.workSurface())
